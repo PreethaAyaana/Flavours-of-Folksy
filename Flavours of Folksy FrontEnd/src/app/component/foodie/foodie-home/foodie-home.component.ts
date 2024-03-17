@@ -16,4 +16,9 @@ export class FoodieHomeComponent {
   
   ngOnInit(): void {
   }
+  selectedMeal: string = 'veg_meal';
+
+  selectMeal(mealId: string) {
+    this.selectedMeal = mealId;
+  }
 }
