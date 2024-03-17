@@ -7,8 +7,8 @@ import { Router } from '@angular/router';
   styleUrl: './foodie-home.component.css'
 })
 export class FoodieHomeComponent {
-  gotoLogin() :void{
-    this.route.navigate(['/login']);
+  gotoMealPlan() :void{
+    this.route.navigate(['/meal-plan']);
   }
   
   constructor( private route: Router) {
